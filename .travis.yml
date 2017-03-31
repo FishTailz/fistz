@@ -2,7 +2,6 @@ sudo: false
 language: cpp
 compiler:
   - clang
-  - gcc
 os:
 - linux
 - osx
@@ -10,8 +9,6 @@ dist: trusty
 addons:
   apt:
     sources:
-    - ubuntu-toolchain-r-test
     - llvm-toolchain-trusty-4.0
     packages:
-    - gcc-7
     - clang-4.0

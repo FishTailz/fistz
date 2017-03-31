@@ -8,6 +8,8 @@ os:
 - osx
 addons:
   apt:
+    sources:
+    - ubuntu-toolchain-r-test
     packages:
     - g++-7
     - clang-8.1

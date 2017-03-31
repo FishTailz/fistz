@@ -9,5 +9,5 @@ os:
 addons:
   apt:
     packages:
-    - g++
-    - clang
+    - g++-7
+    - clang-8.1

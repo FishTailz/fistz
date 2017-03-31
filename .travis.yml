@@ -10,6 +10,7 @@ addons:
   apt:
     sources:
     - ubuntu-toolchain-r-test
+    - llvm-toolchain-zesty-4.0
     packages:
-    - g++-7
-    - clang-8.1
+    - gcc-7
+    - clang-4.0

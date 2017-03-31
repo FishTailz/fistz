@@ -2,6 +2,8 @@
 
 int main() {
   [[maybe_unused]] auto a = 0;
+#ifdef TEST
   std::cout << a << std::endl;
-  return a;
+#endif
+  return 0;
 }

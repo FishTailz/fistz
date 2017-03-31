@@ -6,12 +6,12 @@ compiler:
 os:
 - linux
 - osx
+dist: trusty
 addons:
   apt:
     sources:
     - ubuntu-toolchain-r-test
-    - sourceline: 'deb http://apt.llvm.org/zesty/ llvm-toolchain-zesty-4.0 main'
-      key_url: 'http://apt.llvm.org/llvm-snapshot.gpg.key'
+    - llvm-toolchain-trusty-4.0
     packages:
     - gcc-7
     - clang-4.0

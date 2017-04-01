@@ -1,6 +1,9 @@
 sudo: false
 language: cpp
 compiler:
-  - clang
+- clang
 os:
-  - osx
+- osx
+notifications:
+  slack:
+    secure: B5+vOhZfclaknhJtxx00Rbxj0crKBeOD9/oCiV0/yxTXqDzih9amT3eEt6xMGB4GlAqN44dNY/5Xsrh44w4/GNO9o4Fr6O91TgDQvwYAjHlNIji8d9TTwtwJ/jYu6lxKaiXw4L3fX+TgzFB9kAcP1Jqz2lBRuOlttYfu0ao1p0u9/fP7y28C92XepbL9WiWIF+eFQNf86w69hlHGxDSJX+EYd9H0ebtvCo33oXMFSTEAEs4G8iYD6nHct3ZSu4xsd8P6tDz8ARUHvsY2lcVGmQgpjFNPz4Fjn1Gt5FvY3QRNoTBFenTCprOt4vCNtcMke6c/1GSmZjexTm8m3VY6YrT0f3QOuV5uEs+uvTjD0GgTPnImwvCL0agzRk5B2utRPgLR18Rpqi98O7J57epTcwel/ndbxUicZ7OjkQBz6vK6cT1jSquZ+Fr1Px/f/F9b9rgJjUcj4gkww9y3ZKXBIWzU/3l2KoKA5SwYWJ+M6MgdZNbcq+JiW+JQZwSRYzXJ40SeeOB59n5kDODRUr9PFj/u9N2385BN2hQULHPuJp9jyD80hCj10pb7GZXVlffiANCi0t/zX5lFWzm1qp9E5ShneWfxFWoctb99a8IdZBjqKdGSfV8v8Hhq9iFcs4yzXengm1x2b5GwzKcAboYnscfh4inAWVZjGUx9NWLnL84=
